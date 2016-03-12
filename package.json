@@ -1,0 +1,32 @@
+{
+  "name": "setattributes",
+  "version": "0.0.0",
+  "description": "set and delete multiple attributes in a DOM element",
+  "main": "setattributes.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EvanHahn/setAttributes.git"
+  },
+  "bugs": "https://github.com/EvanHahn/setAttributes/issues",
+  "keywords": [
+    "setattribute",
+    "dom",
+    "removeattribute"
+  ],
+  "license": "Unlicense",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "standard": "^6.0.8"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach"
+    ]
+  }
+}
