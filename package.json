@@ -4,7 +4,10 @@
   "description": "set and delete multiple attributes in a DOM element",
   "main": "setattributes.js",
   "scripts": {
-    "pretest": "standard",
+    "pretest": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --check \"**/*.{md,js,json}\"",
+    "format": "prettier --write \"**/*.{md,js,json}\"",
     "test": "mocha"
   },
   "repository": {
@@ -19,14 +22,8 @@
   ],
   "license": "Unlicense",
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "standard": "^6.0.8"
-  },
-  "standard": {
-    "globals": [
-      "describe",
-      "it",
-      "beforeEach"
-    ]
+    "eslint": "^7.16.0",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.1"
   }
 }
