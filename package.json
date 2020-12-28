@@ -15,6 +15,12 @@
     "url": "git://github.com/EvanHahn/setAttributes.git"
   },
   "bugs": "https://github.com/EvanHahn/setAttributes/issues",
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "CHANGELOG.md",
+    "setattributes.js"
+  ],
   "keywords": [
     "setattribute",
     "dom",
