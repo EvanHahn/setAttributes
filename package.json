@@ -1,6 +1,6 @@
 {
   "name": "setattributes",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "set and delete multiple attributes in a DOM element",
   "main": "setattributes.js",
   "scripts": {
