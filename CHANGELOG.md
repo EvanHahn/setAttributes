@@ -2,9 +2,9 @@
 
 ## Unreleased
 
-### Breaking change
+### Removed
 
-- Drop ES5 suppport
+- ES5 support
 
 ## 1.0.0 - 2020-12-28
 
