@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Breaking change
+
+- Drop ES5 suppport
+
 ## 1.0.0 - 2020-12-28
 
 ### Fixed
