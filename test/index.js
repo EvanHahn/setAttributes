@@ -6,11 +6,11 @@ describe("setAttributes", function () {
   beforeEach(function () {
     this.el = {
       attributes: {},
-      setAttribute: function (key, value) {
-        this.attributes[key] = value;
+      setAttribute: function (name, value) {
+        this.attributes[name] = value;
       },
-      removeAttribute: function (key) {
-        delete this.attributes[key];
+      removeAttribute: function (name) {
+        delete this.attributes[name];
       },
     };
   });
