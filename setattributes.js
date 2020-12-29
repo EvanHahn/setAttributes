@@ -1,15 +1,8 @@
-module.exports = function setAttributes(element, attributes) {
-  var value;
-
-  for (var key in attributes) {
-    if (Object.prototype.hasOwnProperty.call(attributes, key)) {
-      value = attributes[key];
-
-      if (value == null) {
-        element.removeAttribute(key);
-      } else {
-        element.setAttribute(key, value);
-      }
+module.exports = function setAttributes(el, attrs) {
+  Object.entries(attrs).forEach(([name, value]) => {
+    if (value == null) {
+      return el.removeAttribute(name);
     }
-  }
+    el.setAttribute(name, value);
+  });
 };
