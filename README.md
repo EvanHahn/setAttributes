@@ -32,7 +32,7 @@ setAttributes(el, {
 npm install setattributes
 ```
 
-On top of files where you want to use `setAttributes()`:
+Then, to import it:
 
 ```js
 import setAttributes from "setattributes";
