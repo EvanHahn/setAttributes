@@ -26,7 +26,7 @@ setAttributes(el, {
 });
 ```
 
-## Installation with NPM
+## Installation
 
 ```sh
 npm install setattributes
