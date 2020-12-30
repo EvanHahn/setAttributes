@@ -25,3 +25,15 @@ setAttributes(el, {
   maxlength: null,
 });
 ```
+
+## Installation
+
+```sh
+npm install setattributes
+```
+
+Then, to import it:
+
+```js
+import setAttributes from "setattributes";
+```

@@ -1,8 +1,8 @@
-module.exports = function setAttributes(el, attrs) {
-  Object.entries(attrs).forEach(([name, value]) => {
+module.exports = function setAttributes(element, attributes) {
+  Object.entries(attributes).forEach(([name, value]) => {
     if (value == null) {
-      return el.removeAttribute(name);
+      return element.removeAttribute(name);
     }
-    el.setAttribute(name, value);
+    element.setAttribute(name, value);
   });
 };
