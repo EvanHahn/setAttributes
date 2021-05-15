@@ -28,8 +28,8 @@
   ],
   "license": "Unlicense",
   "devDependencies": {
-    "eslint": "^7.16.0",
-    "mocha": "^8.2.1",
-    "prettier": "^2.2.1"
+    "eslint": "^7.26.0",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.0"
   }
 }
