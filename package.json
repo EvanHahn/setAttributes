@@ -8,7 +8,7 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check \"**/*.{md,js,json}\"",
     "format": "prettier --write \"**/*.{md,js,json}\"",
-    "test": "mocha"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,6 @@
   "license": "Unlicense",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "mocha": "^9.1.0",
     "prettier": "^2.3.2"
   }
 }
