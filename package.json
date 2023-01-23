@@ -28,7 +28,7 @@
   ],
   "license": "Unlicense",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "prettier": "^2.3.2"
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
   }
 }
