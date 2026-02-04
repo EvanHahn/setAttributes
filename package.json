@@ -6,8 +6,8 @@
   "scripts": {
     "pretest": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint .",
-    "lint:prettier": "prettier --check \"**/*.{md,js,json}\"",
-    "format": "prettier --write \"**/*.{md,js,json}\"",
+    "lint:prettier": "prettier --check .",
+    "format": "prettier --write .",
     "test": "node test"
   },
   "repository": {
@@ -28,7 +28,9 @@
   ],
   "license": "Unlicense",
   "devDependencies": {
-    "eslint": "^8.45.0",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.3.0",
     "prettier": "^3.8.1"
   }
 }
